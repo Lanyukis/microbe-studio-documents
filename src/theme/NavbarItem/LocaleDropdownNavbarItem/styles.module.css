@@ -1,0 +1,146 @@
+.localeDropdown {
+  display: flex;
+  align-items: center;
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+
+.trigger {
+  align-items: center;
+  background: transparent;
+  border: 1px solid var(--microbe-border);
+  border-radius: var(--microbe-radius);
+  color: var(--microbe-text-secondary);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  font-size: 0.84rem;
+  font-weight: 550;
+  gap: 0.35rem;
+  min-height: 34px;
+  padding: 0.4rem 0.6rem;
+  transition:
+    background 0.12s ease,
+    border-color 0.12s ease,
+    color 0.12s ease;
+  white-space: nowrap;
+}
+
+.trigger:hover,
+.trigger[aria-expanded='true'] {
+  background: var(--microbe-surface-2);
+  border-color: var(--microbe-border-strong);
+  color: var(--microbe-text);
+}
+
+.trigger:focus-visible {
+  border-color: var(--microbe-primary);
+  box-shadow: 0 0 0 3px var(--microbe-primary-soft);
+  outline: none;
+}
+
+.icon {
+  color: var(--microbe-text-muted);
+  height: 15px;
+  width: 15px;
+}
+
+.caret {
+  height: 15px;
+  opacity: 0.76;
+  width: 15px;
+}
+
+.shortLabel {
+  line-height: 1;
+}
+
+.menu {
+  background: var(--microbe-surface);
+  border: 1px solid var(--microbe-border-strong);
+  border-radius: var(--microbe-radius-lg);
+  box-shadow: 0 16px 44px rgba(16, 24, 40, 0.16);
+  display: none;
+  margin-top: 0.5rem;
+  min-width: 184px;
+  opacity: 0;
+  padding: 0.4rem;
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  pointer-events: none;
+  right: 0;
+  top: 100%;
+  visibility: hidden;
+  z-index: 50;
+}
+
+.menuOpen {
+  display: block;
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+}
+
+.menuTitle {
+  color: var(--microbe-text-muted);
+  font-size: 0.76rem;
+  font-weight: 500;
+  padding: 0.6rem 0.65rem;
+}
+
+.divider {
+  background: var(--microbe-border);
+  height: 1px;
+  margin: 0 0 0.3rem;
+}
+
+.localeLink {
+  align-items: center;
+  border-radius: var(--microbe-radius-sm);
+  color: var(--microbe-text-secondary);
+  display: flex;
+  font-size: 0.88rem;
+  font-weight: 500;
+  gap: 0.55rem;
+  min-height: 36px;
+  padding: 0.5rem 0.65rem;
+  justify-content: flex-start;
+}
+
+.localeLink:hover {
+  background: var(--microbe-surface-2);
+  color: var(--microbe-text);
+}
+
+.localeLinkActive {
+  background: transparent;
+  color: var(--microbe-text);
+  font-weight: 600;
+}
+
+.flag {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.localeName {
+  line-height: 1.2;
+}
+
+.check {
+  color: var(--microbe-primary);
+  height: 15px;
+  margin-left: auto;
+  width: 15px;
+}
+
+.mobileTitle {
+  color: var(--microbe-text-muted);
+  font-size: 0.84rem;
+  font-weight: 650;
+  pointer-events: none;
+}
+
+.mobileLocale {
+  align-items: center;
+  display: flex;
+  gap: 0.55rem;
+}
