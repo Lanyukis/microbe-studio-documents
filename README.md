@@ -1,6 +1,6 @@
 # Microbe Studio Docs
 
-Documentation site for Microbe Studio, built with Docusaurus.
+Documentation site for Microbe Studio users and partners, built with Docusaurus.
 
 ## Folder Guide
 
