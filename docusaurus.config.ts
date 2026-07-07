@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Microbe Studio Docs',
   tagline: 'Built for serious automation',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/app-icon.ico',
 
   url: 'https://docs.microbe-studio.com',
   baseUrl: '/',
@@ -83,7 +83,7 @@ const config: Config = {
       title: 'Microbe Studio',
       logo: {
         alt: 'Microbe Studio',
-        src: 'img/logo.svg',
+        src: 'img/app-icon.ico',
       },
       items: [
         {
@@ -99,33 +99,26 @@ const config: Config = {
       ],
     },
     footer: {
-      style: 'dark',
+      style: 'light',
       links: [
         {
-          title: 'Docs',
+          title: 'Pháp lý',
           items: [
-            {label: 'Getting Started', to: '/getting-started/installation'},
-            {label: 'Setup MuMu', to: '/getting-started/setup-mumu'},
-            {label: 'Build Flows', to: '/building-flows/overview'},
+            {label: 'Điều khoản Dịch vụ', href: 'https://microbe-studio.com/terms'},
+            {label: 'Chính sách Bảo mật', href: 'https://microbe-studio.com/privacy'},
+            {label: 'Chính sách Hoàn tiền', href: 'https://microbe-studio.com/refund'},
           ],
         },
         {
-          title: 'Product',
+          title: 'Hỗ trợ',
           items: [
-            {label: 'Instance Dashboard', to: '/using-the-app/instance-dashboard'},
-            {label: 'Discord Bot', to: '/using-the-app/discord-bot'},
-          ],
-        },
-        {
-          title: 'Legal',
-          items: [
-            {label: 'Terms of Service', href: 'https://microbe-studio.com/terms'},
-            {label: 'Privacy Policy', href: 'https://microbe-studio.com/privacy'},
-            {label: 'Refund Policy', href: 'https://microbe-studio.com/refund'},
+            {label: 'Email', href: 'mailto:support@microbe-studio.com'},
+            {label: 'Discord', href: 'https://microbe-studio.com/#contact'},
+            {label: 'Liên hệ', href: 'https://microbe-studio.com/#contact'},
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Microbe Studio.`,
+      copyright: `© ${new Date().getFullYear()} Microbe Studio. Bảo lưu mọi quyền.`,
     },
     prism: {
       theme: prismThemes.github,
