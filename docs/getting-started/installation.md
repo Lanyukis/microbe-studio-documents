@@ -5,21 +5,32 @@ sidebar_position: 1
 
 # Installation
 
-Use this page as the starting point for installing Microbe Studio and preparing the environment it needs.
+Use this page to install Microbe Studio and prepare the basic environment.
 
 ## What you need
 
 - A Windows desktop machine.
-- Microbe Studio installed.
-- MuMu Player installed and configured.
-- At least one emulator instance visible in Microbe Studio.
+- Access to the download page: https://microbe-studio.com/download
 
-## Recommended next step
+## Install Microbe Studio
 
-Before running flows, set up MuMu with the recommended automation settings:
+Download [**MicrobeStudio_Setup**](https://microbe-studio.com/download) and run the installer.
+
+![More info prompt](/img/intro/more-info.png)
+Click **More Info** to continue.
+
+![Run anyway prompt](/img/intro/run-anyways.png)
+Click **Run anyway** to start the installation.
+
+![Finished installation](/img/intro/finish-install.png)
+The installation is complete.
+
+## Next step
+
+Before running Microbe Studio, set up MuMu using this guide:
 
 [Set up MuMu](./setup-mumu)
 
 ## iOS note
 
-Microbe Studio can also support iOS when the workflow runs through MuMu. For now, the Android and iOS documentation should stay shared unless real testing shows that the UI, setup, or flow behavior is different.
+Microbe Studio can support iOS when the workflow runs through MuMu. For now, the Android and iOS documentation stays shared unless real testing shows that the UI, setup, or flow behavior is meaningfully different.

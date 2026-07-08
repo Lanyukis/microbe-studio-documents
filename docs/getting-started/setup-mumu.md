@@ -5,7 +5,7 @@ sidebar_position: 2
 
 # Set Up MuMu
 
-Microbe Studio connects directly to MuMu emulator instances. Configure MuMu first so automation flows can run consistently across machines and across multiple instances.
+Microbe Studio runs directly with MuMu emulator instances. Before running flows, install and configure MuMu so the app can detect instances reliably.
 
 ## Setup steps
 
@@ -16,11 +16,7 @@ Microbe Studio connects directly to MuMu emulator instances. Configure MuMu firs
 
 ## Recommended baseline
 
-- Use the normal Windows installer unless your Windows device uses an ARM chip.
 - Enable VT virtualization for better emulator performance.
 - Use **2 cores**, **2 GB RAM**, **1280x720**, **240 DPI**, and **30 FPS** for consistent automation.
 - Restart MuMu after changing emulator settings.
-
-## Image policy
-
-Documentation screenshots should be optimized before deployment. Keep original screenshots outside `static/` and publish WebP versions in the docs.
+- Restart Microbe Studio after changing the configuration.

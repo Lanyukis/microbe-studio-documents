@@ -39,3 +39,5 @@ Dán đường dẫn vào ô CLI trong Microbe Studio.
 ![Dán CLI path](/img/getting-started/setup-mumu/27-paste-cli-path.webp)
 
 Tắt Microbe Studio và mở lại app. Khi thấy instance hiển thị, setup đã hoàn tất.
+
+![Instance đã hiển thị](/img/getting-started/setup-mumu/28-instance-detected.webp)
